@@ -3,7 +3,7 @@ const Wizard = require('telegraf/scenes/wizard')
 const Composer = require('telegraf/composer')
 const Telegram = require('telegraf/telegram')
 const axios = require('axios')
-const token = "1607576232:AAHOsQLZvbHHBKSbdpWyJOh37Yv7y-xdzZo"
+const token = "1744854418:AAEP_rwo8ojFbXJ1xpykHpdfHfqtI6m2UFk"
 const listen = new Composer()
 listen.on("photo", async (ctx) => {
     const id = ctx.scene.session.from
@@ -38,14 +38,17 @@ listen.on("photo", async (ctx) => {
             reply_markup: {
                 inline_keyboard: [
                     [
-                        { text: "Hướng dẫn xem link", url: link },
+                        { text: "🌐Hướng Dẫn Xem Link 🌐", url: "https://t.me/cackholink/23" },
                     ],
                     [
-                        { text: "Cách cài telegram tiếng Việt", url: "http://1shorten.com/OjKz" },
+                        { text: " 🔞 List Kênh Sex 🔞", url: "https://t.me/cackholink" },
                     ],
                     [
-                        { text: "Hướng dẫn xem 18+ trên iPhone", url: "http://1shorten.com/MALdNkNk" },
+                        { text: "🤑 Kiếm Tiền Cùng AD 🤑", url: "https://t.me/joinchat/wjoJItRVu5E5OWU1" },
                     ],
+                    [
+                        { text: "🤝 Liên Hệ Quảng Cáo Và Mua VIP 🤝", url: "http://t.me/hoangyensex" },
+                    ]
                 ]
             }
         })
