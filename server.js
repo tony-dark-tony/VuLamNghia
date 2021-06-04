@@ -3,7 +3,7 @@ const Telegraf = require('telegraf')
 const session = require('telegraf/session')
 const Stage = require('telegraf/stage')
 
-const token = "1723620706:AAFhtal33Nddbsjn2_3j6lggwfkqlIYCqD4"
+const token = "1329574889:AAHz2-2XR4WvnScnh2WOT7RCLde3nbugjvI"
 const bot = new Telegraf(token)
 
 const stage = new Stage()
